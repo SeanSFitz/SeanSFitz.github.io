@@ -6,7 +6,7 @@ module.exports = {
     linkedin: {text: 'linkedin.com/seanfitzpatrick', link: ''},
     github: {text: 'github.com/SeanSFitz', link: ''}
   },
-  profile: 'Engineer with a background in manufacturing and construction, and a track record of improving processes and solving business problems. Making a career pivot to web development in order to pursue work that is closer to the intersection of what I enjoy doing, and what I excel at.\nLooking to learn on the job and use my experience to offer a unique perspective.',
+  profile: 'Professional engineer with a background in manufacturing and construction, and a track record of improving processes and solving business problems. Making a career pivot to web development in order to pursue work that is closer to the intersection of what I enjoy doing, and what I excel at.\nLooking to learn on the job and use my experience to offer a unique perspective.',
   education: [{
     title: 'Web Development Bootcamp - Immersive', description: 'Lighthouse Labs, Toronto ON', duration: 'May 2017 to July 2017'
   },
@@ -17,14 +17,14 @@ module.exports = {
     title: 'Bachelor of Materials Engineering, Co­op', description: 'Dalhousie University, Halifax NS', duration: 'September 2008 to December 2012'
   }],
   skills: [
-    'Strong Javascript fundamentals. Adept at making modular and reusable code.',
-    'Technologies and libraries: React, jQuery, NodeJS, Express, WebSockets, PostgreSQL, MongoDB, Git.',
-    'Making attractive, responsive web applications using libraries like Bootstrap and Skeleton, or just plain old HTML and CSS.',
-    'Experience using Photoshop to design website prototypes and desktop wallpapers.',
-    'Expertise in Microsoft Excel and its use in modelling complex problems.',
-    'Using programming (Visual Basic/VBA) in conjunction with Microsoft Office and ERP software to create productivity tools.',
-    'Project Management: Software, Manufacturing, Continuous Improvement, Research and Development projects.',
-    'Concise and detailed reporting to senior management; excellent written and oral communication skills.'
+    'Strong <b>Javascript</b> fundamentals. Adept at making <b>modular and reusable code.</b>',
+    'Technologies and libraries: <b>React, jQuery, NodeJS, Express, WebSockets, PostgreSQL, MongoDB, Git.</b>',
+    'Making <b>attractive, responsive web applications</b> using libraries like <b>Bootstrap</b>/<b>Skeleton</b>, or just plain old <b>HTML and CSS</b>.',
+    'Experience using <b>Photoshop</b> to design website prototypes and desktop wallpapers.',
+    '<b>Expertise in Microsoft Excel</b> and its use in modelling complex problems.',
+    'Using <b>programming</b> (Visual Basic/VBA) in conjunction with Microsoft Office and ERP software to <b>create productivity tools</b>.',
+    '<b>Project Management</b>: Software, Manufacturing, Continuous Improvement, Research and Development projects.',
+    '<b>Concise and detailed reporting</b> to senior management; excellent written and oral communication skills.'
   ],
   jobs: [
     {
@@ -42,8 +42,8 @@ module.exports = {
       duration: 'February 2013 to December 2013',
       company: 'Shaw Precast Solutions, Lantz NS',
       bullets: [
-        'Generated $55K in annual raw materials savings through concrete mix design optimization.',
-        'Developed a tool to help the sales team to understand and visualize market share by region, without increased user input.',
+        'Generated annual raw materials savings through concrete mix design optimization.',
+        'Developed a tool to help the sales team to understand and visualize market share by region.',
         'Managed production of major projects to ensure on­time delivery.'
       ]
     },

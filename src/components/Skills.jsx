@@ -1,6 +1,9 @@
 import React, {Component} from 'react';
 import SectionHeader from './SectionHeader.jsx';
 
+function createMarkup(text) {
+  return {__html: text};
+}
 
 class Skills extends Component {
   render() {
@@ -11,7 +14,7 @@ class Skills extends Component {
             <ul>
               {
                 this.props.skills.map((skill) => {
-                  return <li>{skill}</li>
+                  return <li dangerouslySetInnerHTML={createMarkup(skill)} />
                 })
               }
             </ul>
