@@ -11,8 +11,8 @@ class WorkItem extends Component {
             <span className="company-name"><em>{this.props.info.company}</em></span>
             <ul>
             {
-              this.props.info.bullets.map((bullet) => {
-                return <li>{bullet}</li>
+              this.props.info.bullets.map((bullet, index) => {
+                return <li key={index} >{bullet}</li>
               })
             }
             </ul>

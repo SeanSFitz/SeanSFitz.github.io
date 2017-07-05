@@ -13,8 +13,8 @@ class Skills extends Component {
           <div className="section-content">
             <ul>
               {
-                this.props.skills.map((skill) => {
-                  return <li dangerouslySetInnerHTML={createMarkup(skill)} />
+                this.props.skills.map((skill, index) => {
+                  return <li dangerouslySetInnerHTML={createMarkup(skill)} key={index} />
                 })
               }
             </ul>

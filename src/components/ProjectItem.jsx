@@ -9,8 +9,8 @@ class ProjectItem extends Component {
             </div>
             <ul>
             {
-              this.props.info.bullets.map((bullet) => {
-                return <li>{bullet}</li>
+              this.props.info.bullets.map((bullet, index) => {
+                return <li key={index} >{bullet}</li>
               })
             }
             </ul>
