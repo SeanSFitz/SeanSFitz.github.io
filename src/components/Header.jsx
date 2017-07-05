@@ -6,7 +6,7 @@ class Header extends Component {
           <div className="header">
             <div className="name">{this.props.name}</div>
             <div className="skyline">
-              <img src="http://localhost:3000/build/toronto-skyline2.png" />
+              <img src="/build/toronto-skyline2.png" />
             </div>
           </div>
     );
