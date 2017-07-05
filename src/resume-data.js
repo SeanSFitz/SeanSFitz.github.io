@@ -6,7 +6,8 @@ module.exports = {
     linkedin: {text: 'linkedin.com/seanfitzpatrick', link: ''},
     github: {text: 'github.com/SeanSFitz', link: ''}
   },
-  profile: 'Professional engineer with a background in manufacturing and construction, and a track record of improving processes and solving business problems. Making a career pivot to web development in order to pursue work that is closer to the intersection of what I enjoy doing, and what I excel at.\nLooking to learn on the job and use my experience to offer a unique perspective.',
+  profile: ['Professional engineer with a background in manufacturing and construction, and a track record of improving processes and solving business problems. Making a career pivot to web development in order to pursue work that is closer to the intersection of what I enjoy doing, and what I excel at.',
+    'Looking to learn on the job and use my experience to offer a unique perspective.'],
   education: [{
     title: 'Web Development Bootcamp - Immersive', description: 'Lighthouse Labs, Toronto ON', duration: 'May 2017 to July 2017'
   },

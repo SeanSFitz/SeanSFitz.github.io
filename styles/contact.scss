@@ -1,11 +1,20 @@
 .contact-line {
   text-align: center;
   padding: 5px 0;
+  line-height: 10px;
 }
 
 .contact {
 
   img {
     height: 30px;
+  }
+
+  a {
+    color: $main-text-color;
+
+    &:hover {
+      color: $main-color;
+    }
   }
 }
