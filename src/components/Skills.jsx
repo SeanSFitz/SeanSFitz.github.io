@@ -14,7 +14,7 @@ class Skills extends Component {
             <ul>
               {
                 this.props.skills.map((skill, index) => {
-                  return <li dangerouslySetInnerHTML={createMarkup(skill)} key={index} />
+                  return <li className="skill" dangerouslySetInnerHTML={createMarkup(skill)} key={index} />
                 })
               }
             </ul>

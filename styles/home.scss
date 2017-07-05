@@ -14,6 +14,7 @@ ul {
 
 .container {
   max-width: 840px;
+  min-width: 360px;
 }
 
 .header {
@@ -74,4 +75,8 @@ ul {
   .title {
     display: block;
   }
+}
+
+.skill {
+  margin: 2.5px 0;
 }
