@@ -28,7 +28,10 @@ ul {
   overflow: hidden;
 
   .name {
+    position: relative;
+    top: 0;
     display: inline-block;
+    z-index: 20;
   }
 
   .skyline {
@@ -41,9 +44,9 @@ ul {
       max-height: 50px;
     }
 
-    @media (max-width: 630px) {
-   display: none;
-   }
+   //  @media (max-width: 630px) {
+   // display: none;
+   // }
 
   }
 }

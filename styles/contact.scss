@@ -6,8 +6,10 @@
 
 .contact {
 
-  img {
-    height: 30px;
+  height: auto;
+
+  i {
+    // height: 30px;
   }
 
   a {
@@ -15,6 +17,13 @@
 
     &:hover {
       color: $main-color;
+    }
+  }
+
+  &.phone {
+    @media (max-width: 700px) {
+      position: relative;
+      top: -10px;
     }
   }
 }
