@@ -6,6 +6,7 @@ body {
   color: $main-text-color;
   padding: 20px;
   font-size: 10pt;
+  font-family: Helvetica, Verdana, Arial, Sans-Serif;
 }
 
 ul {
@@ -15,6 +16,8 @@ ul {
 .container {
   max-width: 840px;
   min-width: 360px;
+  margin: auto;
+  // -webkit-print-color-adjust: exact;
 }
 
 .header {
@@ -54,6 +57,7 @@ ul {
 .section {
   padding: 0;
   // color:
+
 }
 
 .sectionHeader {
@@ -64,6 +68,10 @@ ul {
   text-align: center;
   width: 100%;
   display: block;
+
+  @media print {
+    font-size: 12pt;
+  }
 }
 
 .section-content {
@@ -72,11 +80,15 @@ ul {
 
 #profile {
   // border-right: 1px solid $heading-bg-color;
+  // width: 49%;
+  display: inline-block;
 }
 
 #education {
+  // width: 49%;
+  display: inline-block;
   @media (min-width: 992px) {
-  border-left: 1px solid $heading-bg-color;
+  // border-left: 1px solid $heading-bg-color;
   }
 }
 
@@ -91,4 +103,8 @@ ul {
 
 .skill {
   margin: 2.5px 0;
+}
+
+.project-item {
+  margin-bottom: 10px;
 }

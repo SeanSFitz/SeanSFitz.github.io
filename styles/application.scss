@@ -1,10 +1,16 @@
 // This is the top-level scss file. Import all other files in here.
-@import 'variables.scss';
 
-@import 'home';
 
-@import 'work';
+  @import 'variables.scss';
 
-@import 'media-queries';
+  @import 'grid';
 
-@import 'contact';
+  @import 'home';
+
+  @import 'work';
+
+  @import 'media-queries';
+
+  @import 'contact';
+
+// @import 'print';

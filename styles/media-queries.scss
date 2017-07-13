@@ -1,13 +1,22 @@
 .hidden-small {
-  @media (max-width: 700px) {
+  @media only screen and (max-width: 700px) {
    display: none;
  }
+ //   @media print {
+ //  display: none;
+ // }
+
 }
 
 .show-small {
   @media (min-width: 700px) {
    display: none;
  }
+
+  @media print {
+  display: none;
+ }
+
 }
 
 @media (max-width: 360px) {
@@ -17,6 +26,14 @@
       padding: 0;
   }
   body {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+
+body {
+  @media print {
     margin: 0;
     padding: 0;
   }

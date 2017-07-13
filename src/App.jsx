@@ -21,7 +21,7 @@ class App extends Component {
       <div className="container">
         <Header name={this.state.info.name}/>
         <Contact info={this.state.info} />
-        <div className="">
+        <div className="grid-section group">
           <Profile text={this.state.profile}/>
           <Education data={this.state.education}/>
         </div>

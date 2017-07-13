@@ -34,7 +34,7 @@ module.exports = {
       company: 'Shaw Precast Solutions, Lantz NS',
       bullets: [
         'Provided recommendations on new business opportunities accounting for $4M+ in potential revenue and $750K+ in capital.',
-        'Developed, improved and deployed information flow systems for processes including Production Scheduling, Transport Scheduling and Non­Conformance Reporting.',
+        'Developed, improved and deployed information flow systems for processes including Production Scheduling, Transport Scheduling and Non­-Conformance Reporting.',
         'Provided technical expertise and advised senior management on a concrete admixture supplier savings initiative yielding an estimated $100K+ in annual savings.'
       ]
     },
@@ -43,9 +43,9 @@ module.exports = {
       duration: 'February 2013 to December 2013',
       company: 'Shaw Precast Solutions, Lantz NS',
       bullets: [
+        'Created an automated production scheduling system using Excel/VBA to improve flow of information from sales to production. The system is estimated to account for $90K in annual sustainable savings as a result of improved labour prioritization.',
         'Generated annual raw materials savings through concrete mix design optimization.',
-        'Developed a tool to help the sales team to understand and visualize market share by region.',
-        'Managed production of major projects to ensure on­time delivery.'
+        'Developed a tool to help the sales team to understand and visualize market share by region.'
       ]
     },
     {
@@ -53,7 +53,6 @@ module.exports = {
       duration: 'January 2012 to January 2013',
       company: 'Shaw Precast Solutions, Lantz NS',
       bullets: [
-        'Created an automated production scheduling system using Excel/VBA to improve flow of information from sales to production. The system is estimated to account for $90K in annual sustainable savings as a result of improved labour prioritization.',
         'Implemented an electronic quality documentation system. Updated and managed ISO 9001 Quality System already in place.',
         'Designed an estimating tool for quoting retaining wall projects. The tool improves quote accuracy, visualizes the result and saves approximately 100 labour hours per year.'
       ]
