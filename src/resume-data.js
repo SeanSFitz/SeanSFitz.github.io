@@ -61,6 +61,7 @@ module.exports = {
   projects: [
     {
       title: 'Resource Wall - Lighthouse Labs Midterm Project',
+      link: 'https://github.com/SeanSFitz/ResourceWall',
       bullets: [
         'Pinterest for learners ­ Web application allowing users to post learning resources. Worked on with two others.',
         'Features include: ratings, comments, likes, search, responsive design, editable profile, password encryption and session storage.',
@@ -69,6 +70,7 @@ module.exports = {
     },
     {
       title: 'Tweetr - Lighthouse Labs Week 3 Project',
+      link: 'https://github.com/SeanSFitz/tweetr',
       bullets: [
         'Twitter Clone ­ Single page application allowing users to send, like and delete tweets.',
         'Technologies used: jQuery, NodeJS, Express, MongoDB'

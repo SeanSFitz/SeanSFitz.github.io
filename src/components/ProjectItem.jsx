@@ -5,7 +5,11 @@ class ProjectItem extends Component {
     return (
           <div className="project-item">
             <div className="project-header">
-              <span className="project-title"><strong>{this.props.info.title}</strong></span>
+              <span className="project-title">
+                <a href={this.props.info.link}>
+                  <strong>{this.props.info.title}</strong>
+                </a>
+              </span>
             </div>
             <ul>
             {

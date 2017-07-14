@@ -107,4 +107,18 @@ ul {
 
 .project-item {
   margin-bottom: 10px;
+
+    a {
+    color: $main-text-color;
+    text-decoration: none;
+
+    &:hover {
+      color: $main-color;
+    }
+  }
+
+}
+
+strong {
+  font-weight: 600;
 }
