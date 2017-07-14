@@ -1,6 +1,6 @@
 module.exports = {
   info: {
-    name: 'SEAN FITZPATRICK, P. ENG.',
+    name: ['SEAN FITZPATRICK',', P. ENG.'],
     phone: '902-430-7508',
     email: {text: 'sean.s.fitz@gmail.com', link: ''},
     linkedin: {text: 'linkedin.com/seanfitzpatrick', link: ''},

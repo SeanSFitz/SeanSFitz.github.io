@@ -38,3 +38,14 @@ body {
     padding: 0;
   }
 }
+
+@media only screen and (max-width: 400px) {
+  .phone {
+  font-size: 9px;
+  }
+
+  .name {
+    font-size: 22px;
+    // display: none;
+  }
+}
