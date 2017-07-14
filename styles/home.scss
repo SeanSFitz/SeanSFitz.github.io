@@ -27,17 +27,24 @@ ul {
   color: #FFFFFF;
   font-size: 24pt;
   height: 45px;
-  padding-left: 10px;
+  // padding-left: 10px;
   overflow: hidden;
 
+
+  // position: absolute;
+  // width: 100%;
+  // max-width: 840px;
+
   .name {
-    position: relative;
-    top: 0;
+    // position: absolute;
+    // top: 0;
     display: inline-block;
+    margin-left: 10px;
     z-index: 20;
   }
 
   .skyline {
+  // position: absolute;
   height: 100%;
   max-height: 50px;
   display: inline-block;
@@ -53,6 +60,11 @@ ul {
 
   }
 }
+
+// .body {
+//   position: relative;
+//   top: 45px;
+// }
 
 .section {
   padding: 0;

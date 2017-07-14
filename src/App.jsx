@@ -20,14 +20,16 @@ class App extends Component {
     return (
       <div className="container">
         <Header name={this.state.info.name}/>
-        <Contact info={this.state.info} />
-        <div className="grid-section group">
-          <Profile text={this.state.profile}/>
-          <Education data={this.state.education}/>
+        <div className="body">
+          <Contact info={this.state.info} />
+          <div className="grid-section group">
+            <Profile text={this.state.profile}/>
+            <Education data={this.state.education}/>
+          </div>
+          <Skills skills={this.state.skills} />
+          <Work data={this.state.jobs}/>
+          <Projects data={this.state.projects} />
         </div>
-        <Skills skills={this.state.skills} />
-        <Work data={this.state.jobs}/>
-        <Projects data={this.state.projects} />
       </div>
     );
   }
